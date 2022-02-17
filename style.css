@@ -1,0 +1,67 @@
+h1{
+
+	color: blue;
+	font-size: 30px;
+}
+#Conteneur{
+	display: flex;	
+}
+.SConteneur{
+	border: 2px solid black;
+	width:450px;
+}
+ div[class=SConteneur] + div[class=SConteneur]{
+ 								background-color: aqua;
+ 								border: 2px solid aqua;
+ 							}
+/*h2{
+	color: lime;
+	text-align: center;
+}*/
+.connection{
+	color: lime;
+	text-align: center;
+}
+p{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+.txt{
+	font-weight: bold;
+	border-bottom-right: 2px;
+	font-size: 15px;
+}
+.tval{
+	font-style: italic;
+	font-size: 18px;
+}
+.inscription{
+	color: green;
+	text-align: center;
+}
+.confiance{
+	color: red;	
+	text-align: center;
+	text-decoration-line: underline;
+}
+body{
+	background: violet;
+}
+.MonImg{
+	position: relative;
+	left: 105px;
+}
+figcaption
+{
+	text-align: center;
+	font-weight: bold;
+}
+.bouton
+{
+	margin-left: 190px;
+	color: blue;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 20px / 15px;
+}
